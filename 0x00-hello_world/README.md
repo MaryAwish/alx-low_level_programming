@@ -5,3 +5,4 @@ Task 2: Assembler
 Task 3: Name
 Task 4: My first C program
 Task 5: Using printf
+Task 6:  C program that prints the size of various types on the computer it is compiled and run on
