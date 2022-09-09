@@ -2,14 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*
+/**
  * Description: main - prints text according to number
  *
- * Returns: Always (success)
+ * Return: 0 if success
 */
 
 int main(void)
-
 {
 	int n;
 
