@@ -7,3 +7,4 @@ Task 4: Printing some letters except e and q
 Task 5: Printing base 10 numbers from 0 -9
 Task 6: Printing numbers using putchar()
 Task 7: Printing alphabets in descending orders
+Task 8: hexadecimal
