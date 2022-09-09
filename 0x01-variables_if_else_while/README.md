@@ -11,3 +11,4 @@ Task 8: hexadecimal
 Task 9: Printing all possible combinations
 Task 10: 
 Task 11: 
+Task 12: 
