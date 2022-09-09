@@ -5,3 +5,4 @@ Task 2: printing Alphabets in lowercase using putchar
 Task 3: Printing alphabets in both lower and upper
 Task 4: Printing some letters except e and q
 Task 5: Printing base 10 numbers from 0 -9
+Task 6: Printing numbers using putchar()
