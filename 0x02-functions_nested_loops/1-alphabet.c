@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * Description: main - prints alphabets
+ * Description: print_alphabet - prints alphabets
  *
  * Return: 0 when successful
 */
 
-int main(void)
+void print_alphabet(void)
 {
 	char al = 'a';
 
@@ -16,5 +16,4 @@ int main(void)
 	}
 
 	_putchar('\n');
-	return (0);
 }
