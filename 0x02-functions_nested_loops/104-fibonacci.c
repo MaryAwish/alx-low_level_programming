@@ -8,13 +8,13 @@
 
 int main(void)
 {
-	long int i, f = 1, a = 2, l = 1000000000, f1, f2, a1, a2;
+	unsigned long int i, f = 1, a = 2, l = 1000000000, f1, f2, a1, a2;
 
-	printf("%ld", f);
+	printf("%lu", f);
 
 	for (i = 1; i < 91; i++)
 	{
-		printf(", %ld", a);
+		printf(", %lu", a);
 		a += f;
 		f = a - f;
 	}
@@ -26,8 +26,8 @@ int main(void)
 
 	for (i = 92; i < 99; i++)
 	{
-		printf(", %ld", a1 + (a2 / l));
-		printf("%ld", a2 % l);
+		printf(", %lu", a1 + (a2 / l));
+		printf("%lu", a2 % l);
 		a1 = a1 + f1;
 		f1 = a1 - f1;
 		a2 = a2 + f2;
