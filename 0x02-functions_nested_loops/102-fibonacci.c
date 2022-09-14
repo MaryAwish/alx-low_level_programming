@@ -15,7 +15,7 @@ int main(void)
 		sum = t1 + t2;
 		printf("%ld", sum);
 
-		ti = t2;
+		t1 = t2;
 		t2 = sum;
 
 		if (k == 49)
@@ -24,5 +24,5 @@ int main(void)
 			printf(", ");
 	}
 
-	return(0);
+	return (0);
 }
