@@ -8,35 +8,19 @@
 
 int main(void)
 {
-	unsigned long int a, b, c, b1, b2, c1, c2;
-	b = 1;
-	c = 2;
+	long int i, t1 = 1, t2 = 2, sum = 0;
 
-	printf("%lu, ", b);
-
-	for (a = 1; a < 91; a++)
+	for (i = 1; i < 98; i++)
 	{
-		printf("%lu, ", c);
+		printf("%ld, ", t1);
+		sum = t1 + t2;
+		t1 = t2;
+		t2 = sum;
 
-		c = c + b;
-		b = c - b;
+		if (i == 97)
+		{
+			printf("%ld\n", t1);
+		}
 	}
-	b1 = b / 1000000000;
-	b2 = b % 1000000000;
-	c1 = c / 1000000000;
-	c2 = c % 1000000000;
-
-	for (a = 92; a < 99; a++)
-	{
-		printf("%lu, ", c1 + (c2 / 1000000000));
-		printf("%lu", c2 % 1000000000);
-
-		c1 = c1 + b1;
-		b1 = c1 - b1;
-		c2 = c2 + b2;
-		b2 = c2 - b2;
-	}
-
-	printf("\n");
 	return (0);
 }
