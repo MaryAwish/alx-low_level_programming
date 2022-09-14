@@ -13,12 +13,12 @@ int main(void)
 	for (k = 0; k <= 50; k++)
 	{
 		sum = t1 + t2;
-		printf("%ld", sum);
+		printf("%ld", t2);
 
 		t1 = t2;
 		t2 = sum;
 
-		if (k == 49)
+		if (k == 50)
 			printf("\n");
 		else
 			printf(", ");
