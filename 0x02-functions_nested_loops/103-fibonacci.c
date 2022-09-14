@@ -9,7 +9,8 @@
 
 int main(void)
 {
-	long int sum = 2, t1 = 0, t2 = 1, k;
+	long int sum = 2, t1 = 0, t2 = 1;
+	float k;
 
 	while (1)
 	{
@@ -26,6 +27,6 @@ int main(void)
 		t1 = t2;
 		t2 = sum;
 	}
-	printf("%ld\n", k);
+	printf("%.0f\n", k);
 	return (0);
 }
