@@ -7,22 +7,29 @@
 
 int main(void)
 {
-	int k;
-	long int t1 = 0, t2 = 1, sum;
+	int count = 3;
+	long int t1 = 1, t2 = 2;
+	long int sum = t1 + t2;
 
-	for (k = 0; k <= 50; k++)
+	printf("%ld, ", t1);
+	printf("%ld, ", t2);
+
+	while (count <= 50)
 	{
-		sum = t1 + t2;
-		printf("%ld", t2);
+		if (count == 50)
+		{
+			printf("%ld\n", sum);
+		}
+		else
+		{
+			printf("%ld, ", sum);
+		}
 
 		t1 = t2;
 		t2 = sum;
 
-		if (k == 50)
-			printf("\n");
-		else
-			printf(", ");
+		sum = t1 + t2;
+		count++;
 	}
-
 	return (0);
 }
