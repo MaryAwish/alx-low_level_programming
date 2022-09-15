@@ -9,16 +9,28 @@
 
 int main(void)
 {
-	unsigned long int w = 612852475143, a = (int) sqrt(w);
+	long int w, f, i;
 
-	while (1)
+	w = 612852475143;
+	f = -1;
+
+	while (w % 2 == 0)
 	{
-		if (w % a == 0)
-		{
-			printf("%lu \n", w / a);
-			break;
-		}
-		a--;
+		f = 2;
+		w = w / 2;
 	}
+	for (i = 3; i <= w / 2; i = i + 2)
+	{
+		while (w % i == 0)
+		{
+			f = i;
+			w = w / i;
+		}
+	}
+	if (w > 2)
+	{
+		f = w;
+	}
+	printf("%ld\n", f);
 	return (0);
 }
