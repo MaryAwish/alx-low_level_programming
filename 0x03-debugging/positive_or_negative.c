@@ -3,16 +3,14 @@
 #include <time.h>
 
 /**
- * main - checks code
+ * positive_or_negative - checks code
  *
  * Return: always 0
 */
 
-int main(void)
+void positive_or_negative(int n)
 
 {
-	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
@@ -28,5 +26,4 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	return (0);
 }
