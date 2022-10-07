@@ -9,4 +9,4 @@ int _isNumber(char *argv);
 void *_calloc(unsigned int nmemb, unsigned int size);
 void *mul_array(char *a1, int len1, char a2, char *a3, int lena);
 void print_array(char *a, int nb);
-int mul(int argc, char *argv[]);
+
