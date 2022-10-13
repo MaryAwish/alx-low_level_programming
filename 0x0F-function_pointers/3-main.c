@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 	if (!k)
 	{
 		printf("Error\n");
-		exit (99);
+		exit(99);
 	}
 
 	printf("%d\n", k(atoi(argv[1]), atoi(argv[3])));
